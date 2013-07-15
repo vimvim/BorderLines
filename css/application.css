@@ -1,7 +1,7 @@
 
 .favorite-video {
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.0;
 }
 
 .favorite-video:hover {

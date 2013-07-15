@@ -27,6 +27,12 @@ function HomeToMedia() {
         // Animation complete.
     });
 
+    $('.favorite-video').animate({
+        'opacity': 0.5
+    }, 500, function() {
+        // Animation complete.
+    });
+
     $('.border-line').animate({
         'left': 60
     }, 500, function() {
