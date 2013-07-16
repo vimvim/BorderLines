@@ -6,6 +6,12 @@ $().ready(function() {
     $("#menu-media").click(function(){
         HomeToMedia();
     });
+
+    // $('.float-line-1').addClass("float-line-1-state-1");
+    // $('.float-line-2').addClass("float-line-2-state-1");
+    // $('.float-line-3').addClass("float-line-3-state-1");
+    // $('.float-line-4').addClass("float-line-4-state-1");
+
 });
 
 function HomeToMedia() {

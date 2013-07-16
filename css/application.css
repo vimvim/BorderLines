@@ -1,11 +1,78 @@
 
+@font-face { font-family: BebasNeue; src: url('/fonts/BebasNeue.otf'); font-weight: normal; font-style: normal; -webkit-font-smoothing: antialiased;}
+@font-face { font-family: Intro; src: url('/fonts/Intro.otf'); font-weight: normal; font-style: normal; -webkit-font-smoothing: antialiased;}
+
+.float-line {
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    color: white;
+    font-family: BebasNeue;
+    font-size: 36px;
+}
+
+.float-line-1 {
+    top: 100px;
+    left: -200px;
+    transition: left 20s linear;
+}
+
+.float-line-1-state-1 {
+    top: 100px;
+    left: -100px;
+}
+
+.float-line-2 {
+    top: 100px;
+    left: -400px;
+    transition: left 15s linear;
+}
+
+.float-line-2-state-1 {
+    top: 100px;
+    left: -500px;
+}
+
+.float-line-3 {
+    top: 100px;
+    left: 10px;
+    transition: left 35s linear;
+}
+
+.float-line-3-state-1 {
+    left: 200px;
+}
+
+.float-line-4 {
+    top: 100px;
+    left: -150px;
+    background-color: gray;
+    opacity: 0.8;
+    transition: left 30s linear;
+}
+
+.float-line-4-state-1 {
+    top: 100px;
+    left: -250px;
+}
+
 .favorite-video {
-    position: absolute;
-    opacity: 0.0;
+    float: left;
 }
 
 .favorite-video:hover {
-    opacity: 0.9;
+    /* opacity: 0.9; */
+}
+
+.vertical-videos {
+    position: absolute;
+    top: 350px; left:
+    0px; width: 120%;
+    transition: left 3s linear;
+}
+
+.vertical-videos:hover {
+    left: -200px;
 }
 
 .favorite-video .video-title {
@@ -130,4 +197,21 @@
 
 .menu-item .menu-item-details {
     display: none;
+}
+
+.bottom-line {
+    width: 100%;
+    background-color: rgb(34, 34, 34);
+    opacity: 0.8;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.bottom-line span {
+    font-family: Intro;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
 }
